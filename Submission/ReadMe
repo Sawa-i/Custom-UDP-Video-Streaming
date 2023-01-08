@@ -1,0 +1,34 @@
+CN PROJECT GROUP (Single Person):-
+
+	> Mohammad Awais (BSCS-8-A) (CMS: 242554)
+
+
+***** Remarks ******
+
+Assalam-u-Alaikum!
+
+Sorry for submitting it like this but Alhamdulillah I was able to fix everything and got it working.
+
+It was a learning experience.
+
+Kindly Accept my CN Project along with sincere apologies, Thank you.
+
+
+
+*************** Running Instructions ************************
+
+1- Write Server's Local IPv4 in serverUDP.c
+
+2- Allow Port Forwarding on Server's ROuter to and from specific port 25000 (which is in both serverUDP.c and clientUDP.c programs)
+
+	2.5 - IF NAT Loopback allowed then one can run server and client on same machine and communicate them over the Internet.
+
+3- Write Server's Public IP in clientUDP.c (can write private IPv4 if running both server and client in local area network)
+
+4- Compile and Run Server:-
+		gcc serverUDP.c -o serverUDP
+		./serverUDP
+
+5- Compile and Run Client:-
+		gcc clientUDP.c -o clientUDP
+		./clientUDP
